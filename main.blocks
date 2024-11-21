@@ -1,0 +1,15 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><comment id="OqE8Mb]{K}@1^E.3b7hq" x="402" y="-285" w="310" h="280">
+basic.forever(function () {
+if (input.lightLevel() &gt;= 50) {
+basic.showIcon(IconNames.Heart)
+} else {
+basic.showIcon(IconNames.No)
+}
+})
+</comment><block type="device_forever" id="o9xHl7|_n|a4ns}g8cHo" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="x.h!xPBRn?^b)qkoCr.l"><mutation elseif="2"></mutation><value name="IF0"><shadow type="logic_boolean" id="gIkN-2?PvgarE#F4ss~["><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="-R6_e(M`hM^Gg#-l1X{Y"><field name="NAME">Button.AB</field></block></value><statement name="DO0"><block type="device_show_leds" id="[pnMJcfTwEX(b.[l$Pla"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="f]I0TgvxmGl$OOU5--6i"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id=":IUzW.9CXAHD8Wp4VFxX"><field name="NAME">Button.A</field></block></value><statement name="DO1"><block type="basic_show_icon" id="[x8h:+5re!W)H*b]dS6S"><field name="i">IconNames.Triangle</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="[Gjsa(l-6d+(Cp9^|]I="><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="`Q:mK2xx.4Jq[Gv5K|rE"><field name="NAME">Button.B</field></block></value><statement name="DO2"><block type="basic_show_icon" id="_$h@l^ZlC_HVijLG,3qw"><field name="i">IconNames.Square</field></block></statement></block></statement></block><block type="device_clear_display" id=".6{ociEAifXE-t=IW93z" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="120" y="677"></block></xml>
